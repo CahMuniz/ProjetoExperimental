@@ -1,9 +1,40 @@
-h1{
+/*h1{
     color: rgb(255, 8, 0);
+}
+
+*/
+
+.pessoa {
+  display: flex;
+  align-items: center;   /* Alinha verticalmente */
+  margin-bottom: 20px;
+}
+.container {
+  display: flex;
+  gap: 20px; /* espaço entre os proprietários */
+  justify-content: center; /* centraliza na tela */
+  flex-wrap: wrap; /* permite quebrar linha se a tela for pequena */
+}
+
+.pessoa img {
+  width: 100px;  /* Ajuste o tamanho da foto */
+  height: 100px;
+  border-radius: 50%; /* Deixa redonda se quiser */
+  margin-right: 15px;
+}
+
+.info h3 {
+  margin: 0 0 5px 0;
+}
+
+.icons img {
+  width: 30px;
+  height: 30px;
+  margin-right: 8px;
+  cursor: pointer;
 }
 
 img{
     width: 250px;
     height: 280px;
 }
-
